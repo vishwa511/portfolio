@@ -7,7 +7,9 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 export default function Contact(){
 
     function handleSubmit(e) {
-      e.target.reset();
+      setTimeout(()=>{
+        e.target.reset();
+      },1000)
     }
 
     return (
